@@ -32,7 +32,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from scipy.stats import linregress
 # Токен вашего бота
-TOKEN = '6152197704:AAHJ6ny9eUjQ8Z5Rc6xohRakKX1taATiyhk'
+TOKEN = ''
 
 def create_table():
     conn = sqlite3.connect('bitcoin_prices.db')
