@@ -12,6 +12,7 @@ from telebot.apihelper import ApiHTTPException
 from telebot.apihelper import ApiTelegramException
 from user import User
 from bitcoin import Bitcoin
+from bot_token import TOKEN
 import ntplib
 from ntplib import NTPException
 from datetime import datetime
@@ -31,8 +32,6 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 from scipy.stats import linregress
-# Токен вашего бота
-TOKEN = '6152197704:AAHJ6ny9eUjQ8Z5Rc6xohRakKX1taATiyhk'
 
 def create_table():
     conn = sqlite3.connect('bitcoin_prices.db')
