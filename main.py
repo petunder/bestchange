@@ -17,7 +17,7 @@ import ntplib
 from ntplib import NTPException
 from datetime import datetime
 import pytz
-import plotly.graph_objs as go
+#import plotly.graph_objs as go
 import requests
 from io import BytesIO
 from PIL import Image
@@ -28,8 +28,6 @@ import pandas as pd
 from scipy.stats import linregress
 from scipy.interpolate import make_interp_spline, BSpline
 from scipy.interpolate import interp1d
-import numpy as np
-import pandas as pd
 import plotly.graph_objects as go
 from scipy.stats import linregress
 
